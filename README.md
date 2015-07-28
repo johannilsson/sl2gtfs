@@ -14,9 +14,9 @@ Options:
   --pygtfs2sl           Create a python gtfs2sl map.
 ```
 
-By default the `sl2gtfs` script outputs a comma separated list of site id and stop id.
+By default the `sl2gtfs` utility outputs a comma separated list of site id and stop id.
 
-In a script
+Usage in a script
 
 ```
 >>> import sl2gtfs
@@ -41,3 +41,4 @@ Package
 Release
 
     twine upload dist/*
+

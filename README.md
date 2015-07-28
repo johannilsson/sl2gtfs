@@ -1,6 +1,12 @@
 # sl2gtfs
 
-Python helpers for converting between SL site ids and national stop ids used by GTFS feeds in Sweden.
+Python helpers for converting between SL site ids and Sweden national stop ids.
+
+    pip install sl2gtfs
+
+## Usage
+
+Requires an API key at [Trafiklab](https://www.trafiklab.se/api/gtfs-sverige) for [GTFS Sweden](https://www.trafiklab.se/api/gtfs-sverige) and [SL stops and routes](https://www.trafiklab.se/api/sl-hallplatser-och-linjer-2).
 
 ```
 Usage: sl2gtfs [options]
@@ -28,7 +34,7 @@ Usage in a script
 (u'6791', '7411302')
 ```
 
-## Development
+## Development & Release
 
 To install it while still working on your changes.
 
